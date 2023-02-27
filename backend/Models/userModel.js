@@ -7,7 +7,7 @@ name:{
 email:{
     type:String,
     require:true,
-    nique:true
+    unique:true
 },
 password:{
     type:String,
@@ -20,7 +20,6 @@ phone:{
 },
 pic:{
     type:String,
-    require:true,
     default:"https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
 },
 
