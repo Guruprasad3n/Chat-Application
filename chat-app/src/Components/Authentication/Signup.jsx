@@ -1,12 +1,10 @@
 import {
   Button,
-  BeatLoader,
   FormControl,
   FormLabel,
   Input,
   VStack,
   InputGroup,
-  InputLeftElement,
   InputRightElement,
   useToast,
   Flex,
@@ -41,7 +39,7 @@ function Signup() {
 
   const postDetails = (avatar) => {
     setLoading(true);
-    if (avatar == undefined) {
+    if (avatar === undefined) {
       toast({
         title: "Please Select an Image.",
         description: "We've created your account for you.",
